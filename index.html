@@ -10,6 +10,43 @@
     <script src="./js/app.js" defer></script>
   </head>
   <body>
-    <h1>Piedra, Papel o Tijera!</h1>
+    <header>
+      <h1>Piedra, papel o tijera</h1>
+      <p>con HTML, CSS y Javascript</p>
+    </header>
+
+    <main>
+      <p class="instrucciones" id="instrucciones">
+        El primero en llegar a 5 puntos gana.
+      </p>
+
+      <div class="marcador">
+        <p class="nombre nombre-jugador">Jugador</p>
+        <p class="nombre nombre-pc">Computadora</p>
+        <p class="puntos">
+          <span id="puntos-jugador">0</span>
+          <span>-</span>
+          <span id="puntos-pc">0</span>
+        </p>
+      </div>
+      <div class="elegi-tu-arma" id="elegi-tu-arma">
+        <h2>Elegí tu arma para el próximo turno</h2>
+        <div class="armas">
+          <button class="arma" id="piedra">✊🏻</button>
+          <button class="arma" id="papel">✋🏻</button>
+          <button class="arma" id="tijera">✌🏻</button>
+        </div>
+      </div>
+      <div class="mensaje" id="mensaje">
+        <p>
+          Usaste <span class="eleccion" id="eleccion-jugador">papapEl📄</span
+          ><br />
+          y la computadora usó
+          <span class="eleccion" id="eleccion-pc">pipiedRa✊🏻</span>
+        </p>
+        <p id="gana-punto">¡Ganaste un punto! 🔥</p>
+      </div>
+      <button class="btn" id="reiniciar">Reinicar juego</button>
+    </main>
   </body>
 </html>
