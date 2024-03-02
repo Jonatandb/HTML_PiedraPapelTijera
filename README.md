@@ -1,4 +1,7 @@
 ## Piedra, Papel o Tijera!
 - Juego HTML, CSS, JavaScript
 
-![Screenshot](Screenshot.png)
+![Screenshot01](Screenshot01.png)
+
+
+![Screenshot02](Screenshot02.png)
